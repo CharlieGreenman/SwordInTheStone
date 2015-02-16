@@ -1,0 +1,195 @@
+/* line 5, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 3, ../sass/main.scss */
+body {
+  background-color: lightgoldenrodyellow;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  font-family: 'Indie Flower', cursive;
+}
+
+/* line 11, ../sass/main.scss */
+#title {
+  position: absolute;
+  text-align: center;
+  color: red;
+  width: 500px;
+  height: 200px;
+  margin: 0 auto;
+  right: 0;
+  left: 0;
+  margin-top: 150px;
+  transition: 1s;
+  text-transform: uppercase;
+}
+
+/* line 26, ../sass/main.scss */
+#randBox1 {
+  float: left;
+  width: 200px;
+  height: 100px;
+  color: white;
+}
+/* line 31, ../sass/main.scss */
+#randBox1 p {
+  line-height: 3rem !important;
+}
+
+/* line 36, ../sass/main.scss */
+#val1 {
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  background: black;
+}
+
+/* line 42, ../sass/main.scss */
+#val2 {
+  width: 50%;
+  height: 50%;
+  margin-left: 50%;
+  box-sizing: border-box;
+  background: black;
+  text-align: right;
+  padding-right: 25%;
+}
+
+/* line 52, ../sass/main.scss */
+#sword {
+  position: absolute;
+  z-index: 42;
+  margin: 0 auto;
+  margin-top: 250px;
+  left: 0;
+  right: 0;
+  transition: 1s;
+  height: 459px;
+  width: 124.5px;
+  cursor: pointer;
+  background: url("../img/sword5.svg");
+  background-size: 100% 100%;
+}
+
+/* line 67, ../sass/main.scss */
+#anvil {
+  position: absolute;
+  z-index: 43;
+  margin: 0 auto;
+  margin-top: 500px;
+  right: 0;
+  left: 0;
+  height: 250px;
+  width: 500px;
+  background: url("../img/anvil10.svg");
+  background-size: 100% 100%;
+}
+
+/* line 80, ../sass/main.scss */
+#legendaryBox {
+  position: absolute;
+  display: none;
+  text-align: center;
+  color: red;
+  width: 400px;
+  height: 200px;
+  margin: 0 auto;
+  right: 0;
+  left: 0;
+  margin-top: 150px;
+  transition: 1s;
+}
+
+/* line 94, ../sass/main.scss */
+h1 {
+  font-size: 2rem;
+}
+
+/* line 98, ../sass/main.scss */
+p {
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+/* line 103, ../sass/main.scss */
+.float {
+  -webkit-animation-name: Floating;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes Floating {
+  from {
+    -webkit-transform: translate(0px, 0px);
+  }
+  65% {
+    -webkit-transform: translate(0, 35px);
+  }
+  to {
+    -webkit-transform: translate(0, 0px);
+  }
+}

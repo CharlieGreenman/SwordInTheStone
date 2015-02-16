@@ -1,0 +1,115 @@
+@import "compass/reset";
+
+body {
+  background-color: lightgoldenrodyellow;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  font-family: 'Indie Flower', cursive;
+}
+
+#title{
+  position: absolute;
+  text-align: center;
+  color:red;
+  width: 500px;
+  height: 200px;
+  margin:0 auto;
+  right: 0;
+  left: 0;
+  margin-top: 150px;
+  transition: 1s;
+  text-transform: uppercase;
+}
+
+
+#randBox1{
+  float: left;
+  width: 200px;
+  height: 100px;
+  color: white;
+  p{
+    line-height: 3rem!important;
+  }
+}
+
+#val1{
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  background: black;
+}
+#val2{
+  width: 50%;
+  height: 50%;
+  margin-left: 50%;
+  box-sizing: border-box;
+  background: black;
+  text-align: right;
+  padding-right: 25%;
+}
+
+#sword{
+  position: absolute;
+  z-index: 42;
+  margin: 0 auto;
+  margin-top: 250px;
+  left: 0;
+  right: 0;
+  transition: 1s;
+  height: 459px;
+  width: 124.5px;
+  cursor: pointer;
+  background: url('../img/sword5.svg');
+  background-size: 100% 100%;
+}
+
+#anvil{
+  position: absolute;
+  z-index: 43;
+  margin: 0 auto;
+  margin-top: 500px;
+  right:0;
+  left: 0;
+  height: 250px;
+  width: 500px;
+  background: url('../img/anvil10.svg');
+  background-size: 100% 100%;
+}
+
+#legendaryBox{
+  position: absolute;
+  display: none;
+  text-align: center;
+  color:red;
+  width: 400px;
+  height: 200px;
+  margin:0 auto;
+  right: 0;
+  left: 0;
+  margin-top: 150px;
+  transition: 1s;
+}
+
+h1{
+  font-size: 2rem;
+}
+
+p{
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+.float {
+  -webkit-animation-name: Floating;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes Floating{
+    from {-webkit-transform:translate(0px, 0px);}
+    65% {-webkit-transform:translate(0, 35px);}
+    to {-webkit-transform: translate(0, -0px);    }
+}
+
